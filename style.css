@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the div take the full viewport height */
+  flex-wrap: wrap; /* If you want to ensure responsiveness */
+  gap: 20px; /* Adds some space between the icons */
+}
+
+.icons a {
+  display: inline-flex; /* To center the contents */
+}
+
+.icons img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+}
+.icon {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative; /* Ensures absolute positioning is relative to the document */
+}
+
+.top-left-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
